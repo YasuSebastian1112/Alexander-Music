@@ -1,0 +1,60 @@
+body {
+    background-image: url("img/Logo.webp");
+    background-size: contain;
+    background-position: top center;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    min-height: 100vh;
+}
+
+.Titulo {
+    background: #3f4447;
+    font-size: 48px;
+    text-align: center;
+    color: #9c9c9c;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.Seccion {
+    background: #d0d3d6;
+    width: 520px;
+    text-align: center;
+    color: #3f4447;
+    margin: 25px auto;
+    border-radius: 20px;
+    padding: 0.1rem 0.1rem 1rem 0.1rem;
+}
+
+.Articulo {
+    transition: box-shadow 0.4s;
+    background-color: #b2bdc7;
+    width: 480px;
+    text-align: center;
+    color: #2e3133;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+    cursor: pointer;
+}
+
+.Articulo:hover {
+    box-shadow: #8d97a0 3px 3px;
+}
+
+.Imagen-tarjeta {
+    width: 460px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #222324;
+    color: #9c9c9c;
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+footer p {
+    float: right;
+    margin: 0;
+}
